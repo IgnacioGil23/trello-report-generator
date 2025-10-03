@@ -1,0 +1,38 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Variables de entorno (credenciales)
+.env
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Reportes generados
+reporte_trello_*.xlsx
+reporte_trello.xlsx
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Archivos de distribución y build
+build/
+dist/
+*.spec
+
+# Archivos de configuración del IDE
+.vscode/settings.json
